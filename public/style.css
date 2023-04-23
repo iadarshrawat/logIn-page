@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: palegreen;
+    height: 100vh;
+}
+
+form{
+    background: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 40px;
+    width: 50vw;
+    flex-direction: column;
+}
+input, label, button{
+    margin: 10px;
+}
